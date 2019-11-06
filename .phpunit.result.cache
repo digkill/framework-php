@@ -1,0 +1,1 @@
+C:37:"PHPUnit\Runner\DefaultTestResultCache":284:{a:2:{s:7:"defects";a:1:{s:48:"Tests\Framework\Http\RequestTest::testParsedBody";i:3;}s:5:"times";a:3:{s:43:"Tests\Framework\Http\RequestTest::testEmpty";d:0.009;s:49:"Tests\Framework\Http\RequestTest::testQueryParams";d:0;s:48:"Tests\Framework\Http\RequestTest::testParsedBody";d:0;}}}
