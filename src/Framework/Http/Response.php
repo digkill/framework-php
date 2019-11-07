@@ -4,7 +4,9 @@ namespace Framework\Http;
 
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\StreamInterface;
-
+/**
+ * @deprecated deprecated
+ */
 class Response implements ResponseInterface
 {
 

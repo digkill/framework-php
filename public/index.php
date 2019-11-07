@@ -18,6 +18,5 @@ $response = (new HtmlResponse('Hello, ' . $name . '!'))
     ->withHeader('X-Developer', 'Edifanoff');
 
 
-
 $emitter = new SapiEmitter();
 $emitter->emit($response);

@@ -1,7 +1,9 @@
 <?php
 
 namespace Framework\Http;
-
+/**
+ * @deprecated deprecated
+ */
 interface ResponseInterface
 {
     /**

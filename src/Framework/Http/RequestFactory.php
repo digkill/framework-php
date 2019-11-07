@@ -1,7 +1,9 @@
 <?php
 
 namespace Framework\Http;
-
+/**
+ * @deprecated deprecated
+ */
 class RequestFactory
 {
     public static function fromGlobals(array $query = null, array $body = null): Request

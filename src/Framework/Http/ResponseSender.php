@@ -3,7 +3,9 @@
 namespace Framework\Http;
 
 use Psr\Http\Message\ResponseInterface;
-
+/**
+ * @deprecated deprecated
+ */
 class ResponseSender
 {
     public function send(ResponseInterface $response): void

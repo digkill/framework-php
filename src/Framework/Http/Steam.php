@@ -2,7 +2,9 @@
 
 namespace PHPUnit\Framework;
 use Psr\Http\Message\StreamInterface;
-
+/**
+ * @deprecated deprecated
+ */
 class Stream implements StreamInterface
 {
     private $content;
