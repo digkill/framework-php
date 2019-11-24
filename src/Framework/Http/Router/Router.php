@@ -18,13 +18,13 @@ class Router
 
     public function match(ServerRequestInterface $request): Result
     {
-         foreach ($this->routes->getRoutes() as $route) {
-             if ($result = $route->match($request)) {
-                 return $result;
-             }
-         }
+        foreach ($this->routes->getRoutes() as $route) {
+            if ($result = $route->match($request)) {
+                return $result;
+            }
+        }
 
-         throw new RequestNotMatchedException($request);
+        throw new RequestNotMatchedException($request);
     }
 
     public function generate($name, array $params = []): string
